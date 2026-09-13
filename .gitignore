@@ -36,11 +36,20 @@ dist/
 venv/
 env/
 
-# LaTeX build byproducts (the report's .tex and .pdf are committed)
+# LaTeX build byproducts (the report's and slides' .tex and .pdf are committed)
 docs/report/*.aux
 docs/report/*.log
 docs/report/*.out
 docs/report/*.toc
+docs/report/*.nav
+docs/report/*.snm
+docs/report/*.vrb
+
+# Personal, local-only working notes and drafts -- not project deliverables.
+# The slide draft is also kept out so it cannot clash with the committed
+# deck in docs/report/.
+local_slides/
+docs/member_a_walkthrough.md
 
 # Editor/OS cruft
 .vscode/
