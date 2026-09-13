@@ -41,6 +41,13 @@ docs/report/*.aux
 docs/report/*.log
 docs/report/*.out
 docs/report/*.toc
+docs/slides/*.aux
+docs/slides/*.log
+docs/slides/*.out
+docs/slides/*.toc
+docs/slides/*.nav
+docs/slides/*.snm
+docs/slides/*.vrb
 
 # Editor/OS cruft
 .vscode/
