@@ -44,10 +44,17 @@ docs/report/*.toc
 docs/report/*.nav
 docs/report/*.snm
 docs/report/*.vrb
+docs/slides/*.aux
+docs/slides/*.log
+docs/slides/*.out
+docs/slides/*.toc
+docs/slides/*.nav
+docs/slides/*.snm
+docs/slides/*.vrb
 
 # Personal, local-only working notes and drafts -- not project deliverables.
 # The slide draft is also kept out so it cannot clash with the committed
-# deck in docs/report/.
+# deck in docs/slides/.
 local_slides/
 docs/member_a_walkthrough.md
 
